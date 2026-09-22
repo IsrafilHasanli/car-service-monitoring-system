@@ -23,9 +23,9 @@ data/images/*
 !data/.gitkeep
 !data/images/.gitkeep
 
-# Model weights are deployed out-of-band
-*.pt
-models/*
+# Model weights required by this service
+!models/
+!models/*.pt
 !models/.gitkeep
 
 # IDE and OS files

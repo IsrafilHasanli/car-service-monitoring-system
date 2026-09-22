@@ -1,6 +1,6 @@
-# Hyundai Service ANPR
+# Car Service Monitoring System
 
-FastAPI based ANPR service-lane monitor for a Hyundai service camera. The app reads an RTSP stream, runs vehicle tracking, plate detection, OCR, and exposes a live operations dashboard.
+FastAPI based ANPR service-lane monitor for a car service camera. The app reads an RTSP stream, runs vehicle tracking, plate detection, OCR, and exposes a live operations dashboard.
 
 ## Project Structure
 
@@ -18,7 +18,7 @@ config/
 data/
   images/                Runtime captures, ignored by git
 models/
-  yolov8n.pt             Vehicle detector, deployed locally
+  yolov8n.pt             Vehicle detector
   license_plate_detector.pt
 main.py                  ASGI app entrypoint
 ```
