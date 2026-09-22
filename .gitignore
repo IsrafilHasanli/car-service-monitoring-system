@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+anpr_env/
+
+# Local configuration and secrets
+.env
+
+# Runtime output
+data/*.json
+data/*.log
+data/*.txt
+data/live_frame.jpg
+data/images/*
+!data/.gitkeep
+!data/images/.gitkeep
+
+# Model weights are deployed out-of-band
+*.pt
+models/*
+!models/.gitkeep
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local media/debug assets
+*.mp4
+ocr_debug/
